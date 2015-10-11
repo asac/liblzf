@@ -74,7 +74,7 @@ TODO: implement lzf_c_best in lzf.
 	- get rid of memcpy.
         - tentatively use rep movsb on x86 and x86_64 (gcc only) for a
           moderate speed improvement.
-        - applied patch by Kein-Hong Man to maske lzf.c compile under
+        - applied patch by Kein-Hong Man to make lzf.c compile under
           the crippled mingw32 environment.
 
 2.0  Fri Feb 16 23:11:18 CET 2007

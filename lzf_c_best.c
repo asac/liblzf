@@ -85,6 +85,8 @@ lzf_compress_best (const void *const in_data, unsigned int in_len,
 
   lit++; *op++ = *ip++;
 
+  &state; /* avoid undefined behaviour by forcing non-register class, 6.3.2.1p2 */
+
   while (ip < in_end - 2)
     {
       int best_l = 0;
